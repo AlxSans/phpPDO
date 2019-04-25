@@ -1,6 +1,6 @@
 <?php 
 
-	//iniciando la conexión
+	//iniciando la conexión.
 	$conexion = new mysqli('localhost', 'root', '', 'psicosmart');
 	if($conexion->connect_errno){ //llamada a la función connect_errno por si hay error
 		echo 'fallo la conexión '. $conexión->connect_errno;
