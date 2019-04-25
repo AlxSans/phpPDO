@@ -22,6 +22,7 @@
 	while($fila=$resultados->fetch_assoc()){ //Forma POO
 		var_dump($fila);
 	}
-
+	
+	// fetch_array() devolverá resultados indicando la posición, imprimos $fila[1];
 
 	$conexion->close();
